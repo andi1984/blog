@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{- block "head" .}}{{end}} {{partial "meta.html" .}}
+</head>
+
+<body>
+  <header>{{- block "header" .}}{{end}}</header>
+  <main>{{- block "main" .}}{{end}}</main>
+  <aside>{{- block "aside" .}}{{end}}</aside>
+  <footer>{{partial "footer.html" .}}{{- block "footer" .}}{{end}}</footer>
+</body>
+
+</html>

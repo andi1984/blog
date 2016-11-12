@@ -1,0 +1,12 @@
+{{define "main"}} 
+{{ range where .Data.Pages "Type" "main"}}
+<section>
+  {{.Content}}
+</section>
+{{end}} Die letzten <a href="post/">Posts</a>:
+<ol>
+  {{ range first 3 (where .Data.Pages "Type" "post")}}
+  <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+  {{end}}
+</ol>
+{{end}}
