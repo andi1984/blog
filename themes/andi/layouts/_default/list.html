@@ -1,7 +1,7 @@
 {{define "main"}} {{- .Title -}}
 <ol>
   {{- range .Data.Pages }}
-  <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+  <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
   {{end}}
 </ol>
 {{end}}
