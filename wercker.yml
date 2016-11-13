@@ -21,3 +21,12 @@ build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevevier/gh-pages:
+        token: $GIT_TOKEN
+        repo: andi1984/andi1984.github.io
+        branch: master
+        basedir: public
