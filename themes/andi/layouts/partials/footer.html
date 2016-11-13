@@ -1,4 +1,4 @@
-{{ range (where .Data.Pages "Type" "metanav")}}
+{{ range (where .Site.Pages "Type" "metanav")}}
 <ul>
   <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
 </ul>
