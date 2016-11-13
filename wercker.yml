@@ -18,6 +18,6 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "HEAD"
+        version: "0.17"
         theme: andi
         flags: --buildDrafts=false
