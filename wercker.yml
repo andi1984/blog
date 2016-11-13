@@ -25,7 +25,7 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - lukevevier/gh-pages:
+    - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         repo: andi1984/andi1984.github.io
         branch: master
