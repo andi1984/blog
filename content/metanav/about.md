@@ -7,8 +7,9 @@ title = "About"
 This is my private blog. Options are my own.
 
 Contact:
-
-Andreas Sander \
-Schillerstr. 8 \
-66292 Riegelsberg \
+{{< address >}}
+Andreas Sander<br>
+Schillerstr. 8<br>
+66292 Riegelsberg<br>
 <a href="mailto:andreassander1984@gmail.com">andreassander1984@gmail.com</a>
+{{</ address >}}
