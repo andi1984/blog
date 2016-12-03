@@ -21,6 +21,8 @@ build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
+    - gulp:
+        task: default
 deploy:
   steps:
     - install-packages:
