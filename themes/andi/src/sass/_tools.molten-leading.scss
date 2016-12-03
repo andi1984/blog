@@ -1,0 +1,15 @@
+// -------------------------------------
+//   Helper function to strip units
+//   cf. https://github.com/sass/sass/issues/533
+// ——————————————————
+@function strip-units($number) {
+   @return $number / ($number * 0 + 1);
+}
+
+// -------------------------------------
+//   The function where the magic happens
+//   cf. the article for the basic formula
+// ——————————————————
+@function molten-leading($lower-gate, $upper-gate, $min-lineheight, $max-lineheight) {
+   @return calc(#{$min-lineheight} + #{strip-units($max-lineheight - $min-lineheight)} * ((100vw - #{$lower-gate}) / #{strip-units($upper-gate) - strip-units($lower-gate)}));
+}

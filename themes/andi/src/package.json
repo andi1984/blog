@@ -1,0 +1,30 @@
+{
+  "name": "andi-hugo-theme",
+  "version": "0.0.1",
+  "description": "Andis Hugo Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andi1984/blog.git"
+  },
+  "author": "Andreas Sander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andi1984/blog/issues"
+  },
+  "homepage": "https://github.com/andi1984/blog#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^6.0.0"
+  }
+}
