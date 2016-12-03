@@ -17,13 +17,13 @@ box: node
 # http://devcenter.wercker.com/docs/pipelines/index.html
 build:
   steps:
+    - npm-install
+    - hgen/gulp:
+        task: default
     - arjen/hugo-build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
-    - npm-install
-    - hgen/gulp:
-        task: default
 deploy:
   steps:
     - install-packages:
