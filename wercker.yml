@@ -21,7 +21,7 @@ build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
-    - gulp:
+    - hgen/gulp:
         task: default
 deploy:
   steps:
