@@ -21,6 +21,8 @@ build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
+    - domudall/nave@0.0.4:
+        node-version: 6.2.0
     - hgen/gulp:
         task: default
 deploy:
