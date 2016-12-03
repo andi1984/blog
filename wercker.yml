@@ -2,7 +2,7 @@
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: dockerimages/docker-nave
+box: node
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
 # services:
@@ -21,8 +21,7 @@ build:
         version: "0.17"
         theme: andi
         flags: --buildDrafts=false
-    - domudall/nave@0.0.4:
-        node-version: 6.2.0
+    - npm-install
     - hgen/gulp:
         task: default
 deploy:
