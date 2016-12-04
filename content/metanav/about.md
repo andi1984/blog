@@ -4,7 +4,7 @@ title = "About"
 
 +++
 
-This is my private blog. Options are my own.
+This is my private blog. Opinions are my own.
 
 Contact:
 {{< address >}}
