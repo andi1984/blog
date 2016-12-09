@@ -12,8 +12,10 @@ branches:
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
+before_script:
+  - go get -u -v github.com/spf13/hugo
 script:
-  - binaries/hugo # generate!
+  - hugo
 after_success:
   - cp .travis.yml public # all branches need this file
   - bash deploy.sh # run the deploy script
