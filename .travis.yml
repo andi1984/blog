@@ -21,7 +21,7 @@ branches:
     - develop
 
 before_install:
-  - sudo apt-get -y install go
+  - sudo apt-get -y install golang
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
