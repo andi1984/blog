@@ -1,3 +1,8 @@
+language: go
+
+go:
+    - "1.7.1"
+
 env:
   global:
     - secure: "Eq0t3zP1PeIHrb/c4XRLyLiErc/du95iwdGyHyElx6Yi9ssdyJEzyf43Zss2lUFjr4ExUYJoiNmf6tcQq/9w0Qcod5yHIfM+okqdGKCEkdi9C5wzTsNc03csZQcptdQou37cLnYH2kYmOH0LMcnO6JK1LEP/IXvGbleohE8TxqSiQmIJhNLFRknqpriint4Ic70wpAVlEiMDY0r3bGfmmvPUrj1c1oerJUmS/idykF/STempGFpbvOpONo87qn3lsJuw/dG/l1JzEoGj3R5/jUtTZoCQkW4WwEQgcjI776pZSrz7xB9+Onl5OiRh2Fb7IVema23bN9ky7KUCGzqG5ZV+izE6v3+J96o7viB4xib2HJlBAFUB2/gqeNyHl6DoqUGlK/gBSy7BJljoN691da6L3BwWor55p6/WREgB6GKbhX3PiqgHmoi8Qrc45jQpdMha+b94Fm0VgLWXljFdA5ft8NSom5v8QJTLjlXf+Lq4ES6U1ifwogO9uv1pkZFcmF8SgMEEB5DnVKmRDkEGfMHjzw0F1QYNRVO5zhny81jREeqXizsWG5y2TBOymGKF6MtS4izaT+7bW8XngI2+x/7HyGvV/cHploOUgkQ6DrTtglzrApygzGPMHTJuRSBcSNZHvgb5G6fL5BGi+jb3L+2yKCniiwxowTC894zOMY4="
@@ -5,6 +10,7 @@ env:
     - GIT_DEPLOY_BRANCH=master # this is the target branch, replace by gh-pages for Project Pages
     - GIT_DEPLOY_USERNAME="Travis CI" # dummy name
     - GIT_DEPLOY_EMAIL=andreas.sander@hotmail.de # replace by your email
+
 branches:
   only:
     - master
@@ -12,10 +18,13 @@ branches:
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
+
 before_script:
   - go get -u -v github.com/spf13/hugo
+
 script:
   - hugo
+
 after_success:
   - cp .travis.yml public # all branches need this file
   - bash deploy.sh # run the deploy script
