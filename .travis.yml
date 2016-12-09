@@ -5,7 +5,7 @@ dist: trusty
 language: node_js
 
 node_js:
-  - "5.5"
+  - "6.1.x"
 
 env:
   global:
@@ -17,23 +17,20 @@ env:
 
 branches:
   only:
-    - master
-    - develop
+    - master # allow build on master
+    - develop # allow build on develop
 
 before_install:
-  - sudo apt-get -y install golang
+  - sudo apt-get -y install golang # install go
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
   - npm install
-
-before_script:
-  - go get -u -v github.com/spf13/hugo
+  - go get -u -v github.com/spf13/hugo # download hugo
 
 script:
-  - ./node_modules/.bin/gulp
-  - hugo
+  - ./node_modules/.bin/gulp # run gulp task
+  - hugo # generate static files
 
 after_success:
-  - cp .travis.yml public # all branches need this file
   - bash deploy.sh # run the deploy script
