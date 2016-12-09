@@ -1,7 +1,11 @@
-language: go
+sudo: required
 
-go:
-    - "1.7.1"
+dist: trusty
+
+language: node_js
+
+node_js:
+  - "5.5"
 
 env:
   global:
@@ -16,13 +20,18 @@ branches:
     - master
     - develop
 
+before_install:
+  - sudo apt-get -y install go
+
 install:
   - rm -rf public || exit 0 # cleanup previous run
+  - npm install
 
 before_script:
   - go get -u -v github.com/spf13/hugo
 
 script:
+  - ./node_modules/.bin/gulp
   - hugo
 
 after_success:
