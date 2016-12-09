@@ -7,7 +7,8 @@ env:
     - GIT_DEPLOY_EMAIL=andreas.sander@hotmail.de # replace by your email
 branches:
   only:
-    - sources # replace by master for Project Pages
+    - master
+    - develop
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
