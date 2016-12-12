@@ -35,5 +35,9 @@ gulp.task('css', ['clear'], function () {
     .pipe(gulp.dest(path.resolve(basePath, '../static/css')));
 });
 
-gulp.task('default', ['clear', 'css'], function () {
+gulp.task('js', ['clear'], function () {
+  return gulp.src(path.resolve(basePath, '**/*.js'))
+    .pipe(gulp.dest(path.resolve(basePath, '../static')));
 });
+
+gulp.task('default', ['clear', 'css', 'js'], function () { });
