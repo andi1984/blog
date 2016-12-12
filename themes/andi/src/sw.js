@@ -1,10 +1,11 @@
 // Cf. https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
-var CACHE_NAME = 'initial';
+var CACHE_NAME = 'Barnacle';
 var urlsToCache = [
   '/css/main.css'
 ];
 var urlsToNotCache = [
-  '/sw-registration.js' // do not cache the service worker registration
+  '/sw-registration.js', // do not cache the service worker registration
+  '/manifest.webmanifest' // do not cache the manifest
 ];
 
 self.addEventListener('activate', function (event) {
