@@ -1,0 +1,15 @@
+{
+  "name": "andi1984.github.io",
+  "short_name": "andi1984",
+  "start_url": ".?utm_source=web_app_manifest",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A #webdev blog",
+  "icons": [{
+    "src": "./app.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+  "related_applications": [],
+  "theme_color": "aliceblue"
+}
