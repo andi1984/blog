@@ -22,6 +22,7 @@ branches:
 
 before_install:
   - sudo apt-get -y install golang # install go
+  - sudo apt-get install python-pygments # install pygments
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
