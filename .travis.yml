@@ -22,12 +22,13 @@ branches:
 
 before_install:
   - sudo apt-get -y install golang # install go
-  - sudo apt-get install python-pygments # install pygments
+  - sudo apt-get -y install python3 # install python 3
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
   - npm install
   - go get -u -v github.com/spf13/hugo # download hugo
+  - pip install Pygments
 
 script:
   - ./node_modules/.bin/gulp --production # run gulp task in production mode
