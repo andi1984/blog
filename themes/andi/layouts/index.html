@@ -3,7 +3,7 @@
 <section>
   {{.Content}}
 </section>
-{{end}} Latest <a href="post/">posts</a>:
+{{end}} Latest three of <a href="post/">all posts</a>:
 <ol>
   {{ range first 3 (where .Data.Pages "Type" "post")}}
   <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
