@@ -37,4 +37,26 @@ I admit that those queries are not the prettiest looking things on earth, but th
 
 The second selector is only to select all upcoming `li` after the first one, to adapt the CSS rules in the end for all elements in the list.
 
+So the above code snippet will style all list items of a list with three entries in green color.
+
+## Advanced Usage - Quantity Thresholds
+
+Obviously you may asking for a more realistic use case than styling for a discrete quantity, but styling differently *starting* with a given threshold like "three or more entries".
+
+Here we can use the `n` argument:
+
+``` css
+li:nth-last-child(n+3), 
+li:nth-last-child(n+3) ~ li {
+	color: green;
+}
+```
+
+where `li:nth-last-child(n+3)` "[...] omits the last [two] items from a set of any length, meaning that when you reduce the length of the set below [three], you cease to see any selected items. It’s a sort of “sliding doors” effect. [...] If, indeed, the set is greater than or equal to [three] in total, then all that remains is to style those last five items as well." ([A List Apart article "Quantity Queries for CSS"](https://alistapart.com/article/quantity-queries-for-css)).
+
+Here you can play around with a live CodePen demo. Have fun!
+
+<iframe height='265' scrolling='no' title='CSS Quantity Queries' src='//codepen.io/andi1984/embed/preview/LxoywP/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/andi1984/pen/LxoywP/'>CSS Quantity Queries</a> by Andreas Sander (<a href='http://codepen.io/andi1984'>@andi1984</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
 Happy usage!
