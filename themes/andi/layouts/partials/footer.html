@@ -1,5 +1,4 @@
-{{ range (where .Site.Pages "Type" "metanav")}}
 <ul>
-  <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+  <li><a href="/metanav/about">About</a></li>
 </ul>
-{{end}} &copy; 2016
+&copy; {{ .Date.Format "2006" }}
