@@ -1,0 +1,26 @@
+{{ with .Params.series }}
+  Related blog series:
+  <ul id="series">
+  {{ range . }}
+    <li><a href="{{ "/series/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+  </ul>
+  {{ end }}
+
+  {{ with .Params.tags }}
+  Related tags:
+  <ul id="tags">
+  {{ range . }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+  </ul>
+  {{ end }}
+
+  {{ with .Params.languages }}
+  Related languages:
+  <ul id="languages">
+  {{ range . }}
+    <li><a href="{{ "/languages/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+  </ul>
+  {{ end }}

@@ -2,6 +2,8 @@
 date = "2016-11-20T18:45:45+01:00"
 title = "Mistakes I made #01 - Array.prototype.indexOf"
 draft = false
+languages = ["JavaScript"]
+series = ["Mistakes"]
 +++
 
 Today I want to talk about a misconception about Array.prototype.indexOf I came across a few days ago.
