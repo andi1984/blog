@@ -5,3 +5,7 @@ theme = "andi"
 relativeURLs = "true"
 pygmentsuseclasses = "true"
 PygmentsCodeFences = "true"
+[taxonomies]
+tag = "tags"
+series = "series"
+language = "languages"
