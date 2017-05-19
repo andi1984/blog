@@ -1,9 +1,12 @@
 var path = require('path');
 
 module.exports = {
-  entry: './themes/andi/src/js/index.js',
+  entry: {
+    index: './themes/andi/src/js/index.js',
+    single: './themes/andi/src/js/single.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'themes', 'andi', 'static')
   },
   resolveLoader: {
