@@ -67,13 +67,13 @@ At the end of the day when the others decided going back to the Hotel, I decided
 
 ## Conference Tuesday - Day 2
 
-This time I thankfully slept quite well and woke up around 7am. I took a glimpse at my weather app which was showing me a forecast of somewhat ~ 28°C for Düsseldorf. So I put on the short trousers…
+This time I thankfully slept quite well and woke up around 7am. I took a glimpse at my weather app which was showing me a forecast of somewhat ~ 28°C for Düsseldorf 😳. So I put on the short trousers…
 
 I went to a nice Coffee a few blocks away and walked straight to the Capitol to kickoff the second day with [Espen](https://twitter.com/ebrunborg). [And he did it very well!](https://www.youtube.com/watch?v=7_FeYJaiAh4)
 
 {{< youtube 7_FeYJaiAh4 >}}
 
-I really enjoyed his (funny) talk and had a nice chat with him and his wife in the following break.
+I really enjoyed his talk and had a nice chat with him and his wife in the following break.
 
 Beside of that I really enjoyed
 
@@ -89,7 +89,7 @@ At the lunch break I went to an ice-cream parlor to take an adequate lunch for t
 
 After coming back I had a nice, little chat with [Eva](https://twitter.com/evalottchen) about her fantastic sketches, drawings. She is really amazing. You have to check out her work!
 
-At the end of the day I had to say bye-bye to my colleagues as they were leaving driving home. I stayed for another workshop day in Düsseldorf.
+At the end of the day I had to say bye-bye to my colleagues as they were leaving for driving home. I stayed for another workshop day in Düsseldorf.
 
 After going back to the hotel and resting a bit, I went out for another nightly walk through the city. But I went back to the hotel around 11pm as I was behind sleep and had an exhausting workshop day with [Sarah](https://twitter.com/sarah_edo) ahead the next day.
 
@@ -111,15 +111,15 @@ So #[btconf](https://twitter.com/search?f=tweets&vertical=default&q=%23btconf&sr
 
 ## Special thanks
 
-A special thanks has to be made to Marc who is organizing this conference series for quite some time. I like his instinct for good talk compositions: neither too technical nor too generally spoken, always something in between and a good mix! But more than that I like the vibe and the atmosphere of the conference. It always feels like a family party and I really like that personal moment. Marc is not this kind of organizer doing everything in background and not showing up during the conf. He is always present, talking to everybody. Even when (nearly) everything is over he is sitting there until the workshops are over to gather the material. I really like this ambitious type of person Marc is. Please stay like that and go on organizing this conference. Was not the last time I was attending… for sure!
+A special thanks has to be made to Marc who is organizing this conference series for quite some time. I like his instinct for good talk compositions: neither too technical nor too generally spoken, always something in between and a good mix! But more than that I like the vibe and the atmosphere of the conference. It always feels like a family party and I really like that personal moment. Marc is not this kind of organizer doing everything in background and not showing up during the conf. He is always present, talking to everybody. Even when (nearly) everything is over he is around. I really like this ambitious type of person Marc is. Please stay like that and go on organizing this conference. Was not the last time I was attending… for sure!
 
-And then there is [Tobi](https://vimeo.com/tobilessnow). This crazy guy acting as a DJ two days like being on dope! His work and his appearance are a unique feature of this conference and without him the conference will no longer be the same. Keep on like this Tobi. You are great!
+And then there is [Tobi](https://vimeo.com/tobilessnow). This crazy guy acting as a DJ two days like being on dope! His work and his appearance are a unique feature of this conference and without him the conference would not be the same. Keep on like this Tobi. You are great!
 
-And everybody still reading this blogpost: Please, please support Tobi and make him a rockstar as he truly deserves it!
+And everybody still reading this blogpost: Please, please support Tobi and make him a rockstar as he truly deserves it! 😜
 
 Over and out,
 
 Andi
 
-PS: Interested in the best #[btconf moments](https://twitter.com/i/moments/866013062725332992) on twitter?
+PS: I save the best #[btconf moments](https://twitter.com/i/moments/866013062725332992) on twitter.
 
