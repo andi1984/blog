@@ -36,7 +36,7 @@ After walking back to our hotel, grabbing my rucksack and my books I sorted out 
 
 Landed at the venue I finally met [Christoph](https://twitter.com/pistenprinz) who is working for Trivago, a sponsor of the conference. I wrote him last year, after reading his slides about the CSS refactoring they did, and asked him for a Q&A online session with the local webdev people in Saarbrücken which took place at the end of last year. And now I finally met him in real life to thank him for his time. I really enjoyed had a talk and 🍺 with you Christoph! Hope we see us soon again. Maybe in Saarbrücken? 😜
 
-The conference started to kickoff with the (opening titles)[https://www.youtube.com/watch?v=bmq8SKjRqwQ] by Sebastian who — as I said — did again a really great job.
+The conference started to kickoff with the [opening titles](https://www.youtube.com/watch?v=bmq8SKjRqwQ) by Sebastian who — as I said — did again a really great job.
 
 {{< youtube bmq8SKjRqwQ >}}
 
