@@ -1,6 +1,3 @@
-@import "normalize";
-@include normalize();
-
 // -------------------------------------
 //   Settings
 // ——————————————————
@@ -35,7 +32,6 @@
 //   Components
 // ——————————————————
 @import "components.posting";
-@import "components.stripe";
 @import "components.comments";
 
 // -------------------------------------
