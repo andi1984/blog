@@ -8,14 +8,14 @@ series = ["Mistakes"]
 
 Today I want to talk about a misconception about Array.prototype.indexOf I came across a few days ago.
 
-### What is it doing?
+## What is it doing?
 
 > The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 > ([MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf))
 
 So this is pretty simple to understand, right? ... Nope! Not for me as my mistake will show you.
 
-### Playing around with it
+## Playing around with it
 
 So here are some examples:
 
@@ -43,7 +43,7 @@ What's about:
 >> -1
 ```
 
-### The misconception
+## The misconception
 
 WTF? There is clear evidence that the array ``[1]`` is a child of the array ``[[1]]``,
 so it should be _found_ in it, right? Nope! And here comes my misconception:
@@ -72,7 +72,7 @@ In our case of two arrays it "Return[s] true if x and y are the same Object valu
 
 So when do two arrays have the same _object value_?
 
-### What happens under the hood?
+## What happens under the hood?
 
 Whenever we create a new array using the array literal like ``let myArray = []`` we create a new _instance_ like
 we would do when we would use ``let myArray = new Array()``.
