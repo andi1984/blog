@@ -42,7 +42,9 @@ The conference started to kickoff with the [opening titles](https://www.youtube.
 
 The rest of the conf day went by very quickly. The talks were all pretty interesting and good. Of course there are different highlights for anyone of us visitors.
 
-My personal three highlights of day 1 were:
+Within one of the many breaks I had the chance to have a chat with [Marco Zehe](https://twitter.com/MarcoZehe) and [Christoph Reinartz](https://twitter.com/pistenprinz) about [#a11y](https://twitter.com/search?q=%23a11y&src=typd). Unfortunately Marco had to leave at next conference day as he was getting sick. Would have been glad to have a further chat session with you Marco.
+
+My personal three talk highlights of day 1 were:
 
 [_"Breaking out of the Tetris mind set"_ by Christian Heilmann](https://www.youtube.com/watch?v=dhURH63UwVo)
 
@@ -122,4 +124,3 @@ Over and out,
 Andi
 
 PS: I save the best #[btconf moments](https://twitter.com/i/moments/866013062725332992) on twitter.
-
