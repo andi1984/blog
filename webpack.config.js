@@ -13,7 +13,7 @@ module.exports = {
   resolveLoader: {
     modules: ['node_modules']
   },
-  plugins: [new BundleAnalyzerPlugin()],
+  plugins: [],
   module: {
     rules: [{
       test: /\.js$/,
