@@ -1,7 +1,7 @@
 {{define "main"}} {{- .Title -}}
-<ol>
+<ol class="overview">
   {{- range .Data.Pages }}
-  <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+   {{partial "overview.html" .}}
   {{end}}
 </ol>
 {{end}}
