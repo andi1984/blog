@@ -2,7 +2,7 @@ a {
   @extend %unvisited-link;
 
   &:visited {
-    background-color: $maximum-green;
-    color: $anti-flash-white;
+    background-color: $link-visited-bg;
+    color: $link-visited-color;
   }
 }

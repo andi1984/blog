@@ -6,8 +6,8 @@
   //   A pile of sheets
   // ——————————————————
   @media(min-width: $upper-gate) {
-    box-shadow: 0 0 5px rgba($black,.2);
-    background: lighten($anti-flash-white, 3%);
+    box-shadow: 0 0 5px rgba($article-shadow,.2);
+    background: lighten($article-bg, 3%);
     padding: 1.5em;
     margin: 1.5em 0;
 
