@@ -9,7 +9,7 @@
   list-style: none;
   padding: 0;
   grid-template-columns: 100%;
-  @media screen and (min-width: $upper-gate) {
+  @media screen and (min-width: $desktop-min-width) {
     grid-template-columns: 50% 50%;
   }
   &__entry {
