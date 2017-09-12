@@ -11,5 +11,5 @@ Contact:
 Andreas Sander<br>
 Schillerstr. 8<br>
 66292 Riegelsberg<br>
-<a href="mailto:andreassander1984@gmail.com">andreassander1984@gmail.com</a>
+<a href="mailto:blog@andi1984.de">Contact me per Mail</a>
 {{</ address >}}
