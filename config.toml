@@ -4,7 +4,6 @@ title = "\"A general webdeveloper's blog...\""
 theme = "andi"
 relativeURLs = "true"
 pygmentsCodeFences = "true"
-pygmentsUseClasses = "true"
 pygmentsStyle = "vs"
 [taxonomies]
 tag = "tags"
