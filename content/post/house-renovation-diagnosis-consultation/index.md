@@ -42,7 +42,7 @@ But I think this is more or less the way to go. You can never know anything from
 
 So you can probably conclude that we ended up in a much bigger todo list, financial investment and completion timeframe:
 
-We started with renovating two bathrooms and replacing windows and doors nearly everywhere in the house and ended up with new screed, vinyl flooring, kitchen, electricity, radiators, solar cables on top of it!
+We started with renovating two bathrooms and replacing windows and doors nearly everywhere in the house and ended up with new screed, vinyl flooring, electricity, radiators and solar cables for a later installable solar systemon top of it!
 
 {{< figure src="riker-wtf.gif" >}}
 
