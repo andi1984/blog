@@ -15,15 +15,13 @@ body {
    font-family: "Source Sans Pro", sans-serif;
    font-size: $font-size;
    max-width: $upper-gate;
+   line-height: $min-lineheight;
 }
 
    
 // -------------------------------------
 //   Usage of the "molten leading" line-height
 // ——————————————————
-p {
-   line-height: $min-lineheight;
-}
 
 /* 21em "gate" * 1.15 font-size */
 @media screen and (min-width: #{$lower-gate* strip-units($font-size)}) {
