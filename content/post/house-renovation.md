@@ -1,6 +1,6 @@
 ---
 title: "House Renovation"
-date: 2017-09-26T23:42:12+02:00
+date: 2017-09-28T23:00:00+02:00
 draft: false
 series: ['House Renovation']
 ---
