@@ -1,5 +1,5 @@
 baseurl = "https://andi1984.de/"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 theme = "andi"
 relativeURLs = "true"
 pygmentsCodeFences = "true"
