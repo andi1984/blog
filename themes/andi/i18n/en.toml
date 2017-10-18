@@ -1,0 +1,10 @@
+[about]
+other = "About"
+[comments_show]
+other = "Give me the comments!"
+[last_x_posts]
+other = "Latest {{.Count}} of"
+[all_posts]
+other = "all posts"
+[translations]
+other = "Übersetzung"

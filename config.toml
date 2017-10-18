@@ -1,11 +1,22 @@
 baseurl = "https://andi1984.de/"
-languageCode = "en-us"
-title = "\"A general webdeveloper's blog...\""
+DefaultContentLanguage = "en"
 theme = "andi"
 relativeURLs = "true"
 pygmentsCodeFences = "true"
 pygmentsStyle = "vs"
+
 [taxonomies]
-tag = "tags"
-series = "series"
-language = "languages"
+  tag = "tags"
+  series = "series"
+  language = "languages"
+
+[Languages]
+  [Languages.en]
+    title = "\"A general webdeveloper's blog...\""
+    weight = 1
+    languageCode = "en-us"
+
+  [Languages.de]
+    title = "\"Ein ganz normaler Webdeveloper Blog...\""
+    weight = 2
+    languageCode = "de-de"
