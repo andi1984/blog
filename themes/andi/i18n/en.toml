@@ -8,3 +8,7 @@ other = "Latest {{.Count}} of"
 other = "all posts"
 [translations]
 other = "Übersetzung"
+[navigation]
+other = "Navigation"
+[lovely_projects]
+other = "Projects I 💓!"
