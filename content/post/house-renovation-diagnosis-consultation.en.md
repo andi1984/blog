@@ -15,7 +15,7 @@ We had a few things on our todo list we wanted to have been done during this ren
 
 We had floorboards for more than 50 years in this house and they still looked very good. Some people said they would never remove such a nice floor, but I was unsure whether the squeaking noises wouldn't annoy me too much.
 
-{{< figure src="floor-cut-off.JPG" >}}
+{{< figure src="/static/floor-cut-off.JPG" >}}
 
 So we decided to remove flooring on 60 square meters and replace it by screed with a vinyl flooring later on.
 
@@ -44,7 +44,7 @@ So you can probably conclude that we ended up in a much bigger todo list, financ
 
 We started with renovating two bathrooms and replacing windows and doors nearly everywhere in the house and ended up with new screed, vinyl flooring, electricity, radiators and solar cables for a later installable solar systemon top of it!
 
-{{< figure src="riker-wtf.gif" >}}
+{{< figure src="/static/riker-wtf.gif" >}}
 
 Here are my tips for consultation:
 
