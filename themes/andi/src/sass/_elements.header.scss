@@ -1,0 +1,10 @@
+$type-padding: 0.08em;
+header h1 {
+  display: inline;
+  font-size: 3em;
+  font-family: serif;
+  line-height: 1;
+  border-bottom: 1px solid $maximum-green;
+  text-shadow: $type-padding 0 0 white, -$type-padding 0 0 white,
+    0 $type-padding 0 white, 0 #{-$type-padding} 0 white;
+}
