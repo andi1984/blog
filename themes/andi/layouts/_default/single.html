@@ -1,5 +1,6 @@
 {{define "header"}}
-  <h1>{{.Title}}</h1> — {{partial "date-format.html" .}}
+<h1>{{.Title}}</h1>
+<span class="date date--header">— {{partial "date-format.html" .}}</span>
 {{end}}
 {{define "main"}}
   <article class="posting">

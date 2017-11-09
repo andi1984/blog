@@ -7,4 +7,5 @@ header h1 {
   border-bottom: 1px solid $maximum-green;
   text-shadow: $type-padding 0 0 white, -$type-padding 0 0 white,
     0 $type-padding 0 white, 0 #{-$type-padding} 0 white;
+  line-break: strict;
 }
