@@ -1,6 +1,23 @@
 %unvisited-link {
-  box-decoration-break: clone;
+  position: relative;
   padding: 0 5px;
-  background-color: $link-unvisited-bg;
   color: $link-unvisited-color;
+  background-color: $link-unvisited-bg;
+
+  &::after {
+    content: "\2693";
+    width: 0;
+    position: relative;
+    display: inline-block;
+    right: 0;
+    bottom: -0.7em;
+    color: $sea-blue;
+    transform: rotate(-9deg);
+  }
+}
+
+%visited-link {
+  @extend %visited-link;
+  color: $link-visited-color;
+  background-color: $link-visited-bg;
 }
