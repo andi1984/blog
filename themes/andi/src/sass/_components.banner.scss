@@ -1,0 +1,20 @@
+.banner {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $maximum-green;
+  text-align: center;
+
+  &--slide-in {
+    transform: translateY(-200%);
+    transition: transform 2s 1s ease-in-out;
+
+    &.banner--slide {
+      transform: none;
+    }
+  }
+}
