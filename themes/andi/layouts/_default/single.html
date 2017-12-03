@@ -1,6 +1,7 @@
 {{define "header"}}
 <h1>{{.Title}}</h1>
 <span class="date date--header">— {{partial "date-format.html" .}}</span>
+<span>(⏱ {{.ReadingTime}} {{if gt .ReadingTime 1}}{{i18n "mins"}}{{else}}{{i18n "min"}}{{end}})</span>
 {{end}}
 {{define "main"}}
   <article class="posting">
