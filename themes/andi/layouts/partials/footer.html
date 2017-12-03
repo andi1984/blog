@@ -3,8 +3,11 @@
   <ul>
     <li><a href="/metanav/about">{{ i18n "about" }}</a></li>
     <li><a href="/metanav/setup">Setup</a></li>
-    <li><a href="/de">🇩🇪</a></li>
-    <li><a href="/en">🇬🇧</a></li>
+    {{ range .Site.Home.AllTranslations }}
+      <li>
+        <a href="{{.Permalink}}">{{ if eq .Lang "de" }}🇩🇪{{else}}🇬🇧{{ end }}</a>
+      </li>
+    {{ end }}
   </ul>
 </section>
 
