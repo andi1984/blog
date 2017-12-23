@@ -19,10 +19,6 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.ModuleConcatenationPlugin(),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'common',
-      minChunks: 2
-    }),
     new workboxPlugin({
       globDirectory: STATIC_FOLDER,
       globPatterns: ["**/*.{html,js,css}"],

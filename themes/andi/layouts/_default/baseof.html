@@ -14,8 +14,7 @@
   <main>{{- block "main" .}}{{end}}</main>
   <aside>{{- block "aside" .}}{{end}}</aside>
   <footer>{{partial "footer.html" .}}{{- block "footer" .}}{{end}}</footer>
-  <script rel="preload" type="text/javascript" src="/common.js"></script>
-  <script defer type="text/javascript" src="/index.js"></script>
+  <script rel="preload" type="text/javascript" src="/index.js"></script>
   {{- block "inlinejs" .}}{{end}}
 </body>
 
