@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin;
 const workboxPlugin = require("workbox-webpack-plugin");
@@ -17,6 +18,11 @@ module.exports = {
     modules: ["node_modules"]
   },
   plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin(),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'common',
+      minChunks: 2
+    }),
     new workboxPlugin({
       globDirectory: STATIC_FOLDER,
       globPatterns: ["**/*.{html,js,css}"],
