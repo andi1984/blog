@@ -1,18 +1,26 @@
 .overview {
-  display: grid;
-  grid-column-gap: 25px;
-  grid-row-grap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media screen and (min-width: $desktop-min-width) {
+    &__entry {
+      flex: 0 1 48%;
+    }
+  }
+  
+  @supports (display: grid) {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-grap: 15px;
+    grid-template-columns: 100%;
+    justify-content: stretch;
+    @media screen and (min-width: $desktop-min-width) {
+      grid-template-columns: 50% 50%;
+    }
+  }
   align-items: start;
-  justify-content: stretch;
   align-content: center;
   margin: 0;
   list-style: none;
   padding: 0;
-  grid-template-columns: 100%;
-  @media screen and (min-width: $desktop-min-width) {
-    grid-template-columns: 50% 50%;
-  }
-  &__entry {
-    
-  }
 }
