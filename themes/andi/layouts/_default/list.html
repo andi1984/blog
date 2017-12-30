@@ -1,7 +1,10 @@
-{{define "main"}} {{- .Title -}}
-<ol class="overview">
-  {{- range .Data.Pages }}
-   {{partial "overview.html" .}}
+{{define "main"}} <h1>{{- .Title -}}</h1>
+  {{- range .Data.Pages.GroupByDate "2006" }}
+    <h2>{{ .Key }}</h2>
+    <ol class="overview">
+      {{ range .Pages }}
+        {{partial "overview.html" .}}
+      {{ end }}
+    </ol>
   {{end}}
-</ol>
 {{end}}
