@@ -7,7 +7,7 @@
       flex: 0 1 48%;
     }
   }
-  
+
   @supports (display: grid) {
     display: grid;
     grid-column-gap: 25px;
@@ -16,6 +16,15 @@
     justify-content: stretch;
     @media screen and (min-width: $desktop-min-width) {
       grid-template-columns: 50% 50%;
+      grid-template-areas: "main main" "part part" "footer footer";
+      
+      &__entry:first-child {
+        grid-area: main;
+      }
+
+      &__entry:last-child {
+        grid-area: footer;
+      }
     }
   }
   align-items: start;
