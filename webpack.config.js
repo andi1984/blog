@@ -26,7 +26,10 @@ module.exports = [
       modules: ["node_modules"]
     },
     plugins: [
-      new CopyWebpackPlugin([{ from: "src/sw-registration.js", to: "." }]),
+      new CopyWebpackPlugin([
+        { from: "src/sw-registration.js", to: "." },
+        { from: "src/icons", to: "./icons"}
+      ]),
       new webpack.optimize.ModuleConcatenationPlugin(),
       new workboxPlugin({
         globDirectory: STATIC_FOLDER,
