@@ -3,9 +3,14 @@ title: "House Renovation - Diagnosis and Consultation"
 date: 2017-09-28T23:42:12+02:00
 draft: false
 series: ['House Renovation']
+resources:
+- src: "*/floor.jpg"
+  name: floor
+- src: "*/riker-wtf.gif"
+  name: riker
 ---
 
-This first part of my [blogpost series](../house-renovation) about _diagnosis_ and _consultation_.
+This first part of my [blogpost series]({{< relref "post/house-renovation/index.en.md" >}}) about _diagnosis_ and _consultation_.
 
 ## Diagnosis
 
@@ -15,9 +20,11 @@ We had a few things on our todo list we wanted to have been done during this ren
 
 We had floorboards for more than 50 years in this house and they still looked very good. Some people said they would never remove such a nice floor, but I was unsure whether the squeaking noises wouldn't annoy me too much.
 
-{{< figure src="/images/floor-cut-off.JPG" >}}
-
 So we decided to remove flooring on 60 square meters and replace it by screed with a vinyl flooring later on.
+
+{{<imgproc floor Resize "684x" >}}
+The cut out floor.
+{{</imgproc>}}
 
 So here are a few tips:
 
@@ -44,7 +51,7 @@ So you can probably conclude that we ended up in a much bigger todo list, financ
 
 We started with renovating two bathrooms and replacing windows and doors nearly everywhere in the house and ended up with new screed, vinyl flooring, electricity, radiators and solar cables for a later installable solar systemon top of it!
 
-{{< figure src="/images/riker-wtf.gif" >}}
+{{< img "*riker*" "" >}}
 
 Here are my tips for consultation:
 

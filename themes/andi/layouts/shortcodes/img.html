@@ -1,16 +1,6 @@
-<!-- image -->
-<figure {{ with .Get "class" }}class="{{.}}" {{ end }}>
-  {{ with .Get "link"}}<a href="{{.}}">{{ end }}
-        <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
-    {{ if .Get "link"}}</a>{{ end }} {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
-  <figcaption>{{ if isset .Params "title" }}
-    <span>{{ .Get "title" }}</span>{{ end }} {{ if or (.Get "caption") (.Get "attr")}}
-    <p>
-      {{ .Get "caption" }} {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
-            {{ .Get "attr" }}
-        {{ if .Get "attrlink"}}</a> {{ end }}
-    </p> {{ end }}
-  </figcaption>
-  {{ end }}
+{{ $img := $.Page.Resources.GetMatch (.Get 0)}}
+{{ $alt := .Get 1}}
+<figure>
+  <img src="{{ $img.RelPermalink }}" alt={{ $alt }} />
+  <figcaption>{{ $alt }}</figcaption>
 </figure>
-<!-- image -->

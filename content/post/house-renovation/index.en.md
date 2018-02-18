@@ -14,7 +14,7 @@ Some time ago I asked on twitter whether some of you might be interested in a se
 
 I will do so in this upcoming blogpost series with the following sections:
 
-1. [Diagnosis and consultation](../house-renovation-diagnosis-consultation)
+1. [Diagnosis and consultation]({{< relref "post/house-renovation-diagnosis/index.en.md" >}})
 2. Financing
 3. Planning
 4. Realisation
