@@ -11,6 +11,11 @@
     padding: 1.5em;
     margin: 1.5em 0;
 
+    transform: rotate(-1deg);
+    .overview__entry & {
+      transform: none;
+    }
+
     &::before, &::after {
       content: '';
       position: absolute;
