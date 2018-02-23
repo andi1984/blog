@@ -1,7 +1,7 @@
 // cf. https://coolors.co/05668d-427aa1-ebf2fa-679436-a5be00
 $sea-blue: #05668D;
 $queen-blue: #427AA1;
-$anti-flash-white: #EBF2FA;
+$link-water: #e5eff9;
 $maximum-green: #679436;
 $limerick: #A5BE00;
 $black: #000;
@@ -10,9 +10,9 @@ $black: #000;
 //   Color linkings
 // ——————————————————
 $text-color: $sea-blue;
-$article-bg: $anti-flash-white;
+$article-bg: $link-water;
 $article-shadow: $black;
 $link-unvisited-bg: $sea-blue;
-$link-unvisited-color: $anti-flash-white;
+$link-unvisited-color: $link-water;
 $link-visited-bg: $maximum-green;
-$link-visited-color: $anti-flash-white;
+$link-visited-color: $link-water;

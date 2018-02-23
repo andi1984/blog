@@ -1,37 +1,31 @@
 .posting {
   position: relative;
   word-wrap: break-word;
-  
+
   // -------------------------------------
   //   A pile of sheets
   // ——————————————————
-  @media(min-width: $desktop-min-width) {
-    box-shadow: 0 0 5px rgba($article-shadow,.2);
+  @media (min-width: $desktop-min-width) {
     background: lighten($article-bg, 3%);
     padding: 1.5em;
     margin: 1.5em 0;
+    border-radius: 5px;
 
     transform: rotate(-1deg);
     .overview__entry & {
       transform: none;
     }
 
-    &::before, &::after {
+    &::before {
       content: '';
       position: absolute;
-      z-index: -1;
-      left: 0;
+      border-style: solid;
+      border-width: #{1.5em/2};
       top: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-      background: inherit;
-      box-shadow: inherit;
-      transform: rotate(2deg);
+      left: 0;
+      border-color: white $article-bg $article-bg
+        white;
+      border-bottom-right-radius: 5px;
     }
-
-    &::after 
-    { transform: rotate(-1deg) }
   }
 }
- 
