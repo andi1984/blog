@@ -25,6 +25,7 @@ module.exports = [
     resolveLoader: {
       modules: ["node_modules"]
     },
+    mode: 'production',
     plugins: [
       new CopyWebpackPlugin([{ from: "src/sw-registration.js", to: "." }]),
       new webpack.optimize.ModuleConcatenationPlugin(),
