@@ -1,0 +1,23 @@
+{{ with .Params.series }}
+  Series:
+  <ul id="series">
+  {{ range . }}
+    <li>
+      <a href="{{ "/series/" | relLangURL }}{{ . | urlize }}">
+        <span>
+          {{.}}
+        </span>
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}
+
+{{ with .Params.tags }}
+  Tags:
+  <ul id="tags">
+  {{ range . }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+  </ul>
+{{ end }}

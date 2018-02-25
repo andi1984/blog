@@ -13,3 +13,5 @@ Im Stockwald 12<br>
 66265 Heusweiler<br>
 <a href="mailto:blog@andi1984.de">Contact me per Mail</a>
 {{</ address >}}
+
+Icons powered by [Streamlineicons from @webalys](http://www.streamlineicons.com/ux/index.html)!

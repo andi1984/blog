@@ -1,0 +1,4 @@
+{{$svg := .Get 0}}
+{{if (fileExists $svg) }}
+{{ $svg | readFile | safeHTML }}
+{{end}}

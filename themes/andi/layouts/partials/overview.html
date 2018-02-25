@@ -2,7 +2,9 @@
   <article class="posting">
     <a href="{{.RelPermalink}}">{{ .Title }}</a>
     <small>{{partial "date-format.html" .}}</small>
-    <p>
+    <details>
+      {{partial "taxonomy-listings-short.html" .}}
+    </details>
     {{ .Summary }}
     </p>
   </article>
