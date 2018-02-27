@@ -1,4 +1,5 @@
 <li class="overview__entry">
+  {{ if (eq .Type "post") }}
   <article class="posting">
     <a href="{{.RelPermalink}}">{{ .Title }}</a>
     <small>{{partial "date-format.html" .}}</small>
@@ -8,4 +9,8 @@
     {{ .Summary }}
     </p>
   </article>
+  {{ else if (eq .Type "link") }}
+  <a href="{{.Params.link}}" class="link" target="_blank" rel="noopener">{{.Title}}</a>
+  {{ else }}
+  {{ end }}
 </li>
