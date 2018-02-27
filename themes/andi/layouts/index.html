@@ -3,9 +3,9 @@
 <section>
   {{.Content}}
 </section>
-{{end}} {{ i18n "last_x_posts" 4 }} <a href="post/">{{ i18n "all_posts" }}</a>:
+{{end}} {{ i18n "last_x_posts" 10 }} <a href="post/">{{ i18n "all_posts" }}</a>:
 <ol class="overview">
-  {{ range first 4 (where .Data.Pages "Type" "post")}}
+  {{ range first 10 .Data.Pages }}
    {{partial "overview.html" .}}
   {{end}}
 </ol>
