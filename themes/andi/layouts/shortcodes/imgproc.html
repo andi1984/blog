@@ -13,7 +13,7 @@
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
 <figure>
-	<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+	<img {{ if in (print .Site.BaseURL) "localhost"}}src="{{ $image.RelPermalink }}"{{else}}src="http://res.cloudinary.com/dpct9sbmv/image/fetch/{{ $image.Permalink }}"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}">
 	<figcaption>
 	<small>
 	{{ with .Inner }}

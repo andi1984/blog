@@ -1,6 +1,6 @@
 {{ $img := $.Page.Resources.GetMatch (.Get 0)}}
 {{ $alt := .Get 1}}
 <figure>
-  <img src="{{ $img.RelPermalink }}" alt={{ $alt }} />
+  <img {{ if in (print .Site.BaseURL) "localhost"}}src="{{ $img.RelPermalink }}"{{else}}src="http://res.cloudinary.com/dpct9sbmv/image/fetch/{{$img.Permalink }}"{{end}} alt={{ $alt }} />
   <figcaption>{{ $alt }}</figcaption>
 </figure>
