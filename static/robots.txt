@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: http://andi1984.de/sitemap.xml

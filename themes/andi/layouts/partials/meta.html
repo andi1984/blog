@@ -4,7 +4,7 @@
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="author" content="Andreas Sander">
 <meta name="date" content="{{.Date}}">
-<meta name="description" content="A personal blog about nowadays webdevelopment with HTML, CSS and JavaScript.">
+<meta name="description" content="{{ cond (gt (len .Summary) 0) (plainify .Summary) ("A personal blog about nowadays webdevelopment with HTML, CSS and JavaScript.")}}">
 <meta name="keywords" content="css, javascript, html5, programming">
-<title>{{.Title}}</title>
+<title>{{ plainify .Title}}</title>
 {{.Hugo.Generator}}
