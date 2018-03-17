@@ -1,0 +1,10 @@
+<script type="text/javascript">
+  const matchCode = window.location.search.match('code=(.*)&?');
+  debugger;
+  if (matchCode.length === 2) {
+    // Code found, auth successfull
+    window.opener.postMessage(matchCode[1], window.location.origin);
+  } else {
+    window.opener.postMessage(null, window.location.origin);
+  }
+</script>
