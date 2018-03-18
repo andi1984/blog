@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "hugo && webpack --config webpack.config.js",
-    "watch": "webpack --watch --progress"
+    "watch": "webpack --watch --progress --mode development"
   },
   "repository": {
     "type": "git",

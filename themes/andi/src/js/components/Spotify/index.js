@@ -13,7 +13,7 @@ export default class Spotify extends Component {
   play() {
     if (isAuthorized()) {
       // Play the playlist
-      startPlayList();
+      startPlayList(this.props.uri);
     } else {
       // Init authorize process and rerun play in sucess case
       authorizeForPlay(this.play.bind(this));
@@ -23,7 +23,7 @@ export default class Spotify extends Component {
   render({}) {
     return (
       <button type="button" onClick={this.play} title="Play mood music on Spotify!">
-        🎵
+        🎵 (🔥 Play with Spotify 🔥)
       </button>
     );
   }
