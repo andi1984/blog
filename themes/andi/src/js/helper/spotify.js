@@ -102,7 +102,7 @@ export const startPlayList = uri => {
         Authorization: `Bearer ${getAccessToken()}`
       },
       body: JSON.stringify({
-        context_uri: "spotify:user:spotify:playlist:37i9dQZF1DWVyfHu8SNQgH"
+        context_uri: uri
       }),
       method: "PUT"
     }).then(response => {
