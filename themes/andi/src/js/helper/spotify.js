@@ -40,7 +40,7 @@ const storeSpotifyTokenData = data =>
  * @param {function} callback
  */
 export const authorizeForPlay = callback => {
-  const SCOPES = "user-modify-playback-state user-read-playback-state";
+  const SCOPES = "user-modify-playback-state";
   const URL = `https://accounts.spotify.com/authorize?response_type=code&client_id=${CLIENT_ID}&scope=${SCOPES}&redirect_uri=${SPOTIFY_REDIRECT_URI}`;
 
   // Open authorize URL in popup
