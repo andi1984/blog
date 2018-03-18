@@ -11,25 +11,33 @@ export const getAccessToken = () =>
   JSON.parse(window.sessionStorage.getItem(SPOTIFY_CODE_FEILD))["access_token"];
 
 /**
+ * Get the refresh token got from the first /swap call.
+ */
+export const getRefreshToken = () =>
+  JSON.parse(window.sessionStorage.getItem(SPOTIFY_CODE_FEILD))[
+    "refresh_token"
+  ];
+/**
  * Return true if user is authorized, false otherwise.
  */
-export const isAuthorized = () => window.sessionStorage.hasOwnProperty(SPOTIFY_CODE_FEILD);
+export const isAuthorized = () =>
+  window.sessionStorage.hasOwnProperty(SPOTIFY_CODE_FEILD);
 
 /**
  * Store spotify token data on client side
- * @param {Object} data 
+ * @param {Object} data
  */
 const storeSpotifyTokenData = data =>
   window.sessionStorage.setItem(SPOTIFY_CODE_FEILD, JSON.stringify(data));
 
 /**
  * Authorize the user for playing songs.
- * 
+ *
  * 1. Do a call against Spotifiy /authorize endpoint inside a popup
  * 2. Do another call through our internal Node based API endpoint
  * 3. Store access data in sessionStorage of user
  * 4. Run the optional callback
- * @param {function} callback 
+ * @param {function} callback
  */
 export const authorizeForPlay = callback => {
   const SCOPES = "user-modify-playback-state user-read-playback-state";
@@ -66,9 +74,26 @@ export const authorizeForPlay = callback => {
   );
 };
 
+export const refreshAccessToken = callback => {
+  fetch(`${API_ENDPOINT}/refresh`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: `refresh_token=${getRefreshToken()}`
+  })
+    .then(response => response.json())
+    .then(data => {
+      storeSpotifyTokenData(data);
+      if (typeof callback === "function") {
+        callback();
+      }
+    });
+};
+
 /**
  * Start playing a playlist.
- * @param {string} uri 
+ * @param {string} uri
  */
 export const startPlayList = uri => {
   if (isAuthorized()) {
@@ -83,12 +108,22 @@ export const startPlayList = uri => {
     }).then(response => {
       switch (response.status) {
         case 202:
-          alert('You need to have your Spotify open and running, sorry 🤷‍♂️.');
+          alert("You need to have your Spotify open and running, sorry 🤷‍♂️.");
+          break;
+        case 401:
+          const callback = startPlayList.bind(this, uri);
+          if (isAuthorized()) {
+            refreshAccessToken(callback);
+          } else {
+            authorizeForPlay(callback);
+          }
           break;
         case 403:
-          alert('You need to be a Spotify Premium member, sorry 😞.');
+          alert("You need to be a Spotify Premium member, sorry 😞.");
         case 404:
-          alert("Do you have Spotify already setup? I can not find a device/app to play with 🎵");
+          alert(
+            "Do you have Spotify already setup? I can not find a device/app to play with 🎵"
+          );
         default:
           break;
       }
