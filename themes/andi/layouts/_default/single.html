@@ -2,6 +2,9 @@
 <h1>{{.Title}}</h1>
 <span class="date date--header">— {{partial "date-format.html" .}}</span>
 <span>(⏱ {{.ReadingTime}} {{if gt .ReadingTime 1}}{{i18n "mins"}}{{else}}{{i18n "min"}}{{end}})</span>
+{{ if .Params.spotify }}
+<div data-js="spotify-play" data-spotify="{{.Params.spotify}}"></div>
+{{ end }}
 {{end}}
 {{define "main"}}
   <article class="posting">

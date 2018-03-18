@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "hugo && webpack --config webpack.config.js"
+    "build": "hugo && webpack --config webpack.config.js",
+    "watch": "webpack --watch --progress --mode development"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,11 @@
   },
   "homepage": "https://github.com/andi1984/blog#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.41",
+    "@babel/preset-env": "^7.0.0-beta.41",
     "autoprefixer": "^8.1.0",
     "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^4.5.0",
@@ -39,6 +41,7 @@
     "workbox-webpack-plugin": "^2.1.3"
   },
   "dependencies": {
+    "preact": "^8.2.7",
     "raven-js": "^3.23.1"
   },
   "browserslist": "last 10 versions, ie 10"
