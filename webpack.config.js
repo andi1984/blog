@@ -25,14 +25,14 @@ module.exports = [
     resolveLoader: {
       modules: ["node_modules"]
     },
-    mode: 'production',
+    mode: "production",
     plugins: [
       new CopyWebpackPlugin([
         { from: "src/sw-registration.js", to: "." },
-        { from: "src/icons", to: "./icons"}
+        { from: "src/icons", to: "./icons" }
       ]),
       new webpack.optimize.ModuleConcatenationPlugin(),
-      new workboxPlugin({
+      new workboxPlugin.GenerateSW({
         globDirectory: STATIC_FOLDER,
         globPatterns: ["**/*.{html,js,css}"],
         swDest: path.join(STATIC_FOLDER, "sw.js"),
