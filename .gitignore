@@ -83,3 +83,4 @@ fabric.properties
 # *.ipr
 themes/**/static
 public/
+.env

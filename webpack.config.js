@@ -8,6 +8,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
   filename: "[name].css"
 });
+const Dotenv = require("dotenv-webpack");
 const THEME_FOLDER = path.resolve(__dirname, "themes", "andi");
 const STATIC_FOLDER = path.resolve(THEME_FOLDER, "static");
 
@@ -38,7 +39,8 @@ module.exports = [
         swDest: path.join(STATIC_FOLDER, "sw.js"),
         clientsClaim: true,
         skipWaiting: true
-      })
+      }),
+      new Dotenv()
     ],
     module: {
       rules: [
@@ -61,7 +63,7 @@ module.exports = [
     resolveLoader: {
       modules: ["node_modules"]
     },
-    plugins: [extractSass],
+    plugins: [extractSass, new Dotenv()],
     module: {
       rules: [
         {

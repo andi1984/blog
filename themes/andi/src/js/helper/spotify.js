@@ -1,8 +1,10 @@
-import { CLIENT_ID, API_ENDPOINT } from "../spotify-key";
 export const SPOTIFY_CODE_FEILD = "spotifyTokenData";
 export const SPOTIFY_REDIRECT_URI = `${
   window.location.origin
-}/spotify-redirect.html`;
+  }/spotify-redirect.html`;
+
+const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
+const API_ENDPOINT = process.env.SPOTIFY_API_ENDPOINT;
 
 /**
  * Get the current active Spotify API access token
