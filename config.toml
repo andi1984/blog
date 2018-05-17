@@ -1,4 +1,4 @@
-baseurl = "https://blog.andi1984.de/"
+baseurl = "https://andi1984.de/"
 DefaultContentLanguage = "de"
 theme = "andi"
 relativeURLs = "true"
