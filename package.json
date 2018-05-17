@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "preact": "^8.2.7",
-    "raven-js": "^3.24.0"
+    "raven-js": "^3.25.2"
   },
   "browserslist": "last 10 versions, ie 10"
 }
