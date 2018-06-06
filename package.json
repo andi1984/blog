@@ -43,7 +43,7 @@
     "workbox-webpack-plugin": "^3.0.1"
   },
   "dependencies": {
-    "preact": "^8.2.7",
+    "preact": "^8.2.9",
     "raven-js": "^3.25.2"
   },
   "browserslist": "last 10 versions, ie 10"
