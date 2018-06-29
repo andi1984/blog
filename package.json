@@ -30,7 +30,7 @@
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "del": "^3.0.0",
-    "dotenv-webpack": "^1.5.5",
+    "dotenv-webpack": "^1.5.7",
     "extract-text-webpack-plugin": "^4.0.0-alpha.0",
     "node-sass": "^4.9.0",
     "npm-check-updates": "^2.14.1",
