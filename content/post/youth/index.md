@@ -38,7 +38,7 @@ Oh, da klingelte schon das Telefon! Ich meldete mich mit folgenden Worten, die i
 
 Telefonate dauerten meist nicht länger als eine halbe Minute und verliefen hunderte Male genau so! Und dann ging es raus zum Fahrrad oder Skateboard fahren (u.a. mit einem Pudel). Und wenn schlechtes Wetter war, dann tauschten wir das Fahrrad, Tischtennisschläger oder Skateboard gegen einen Gameboy oder später einen N64. Und wenn uns gar nichts einfiel was wir denn machen wollten, dann nahmen wir uns Zettel und Stift: Jeder schrieb die Top X Aktivitäten auf die er machen wollte. Gab es am Ende Übereinstimmungen, dann wurde sich darauf geeinigt. So war das damals… ganz schön demokratisch. ;)
 
-Und im Sommer gab es am Ende des Tages, wenn man stinkte vom vielen Schwitzen, die Kleider dreckig war vom Hinfallen und die ein oder andere Wunde am Körper klaffte, dann kam der Eismann und es gab Eis! Ein Bällchen für 30 oder 40 Pfennig — _so genau weiß ich das nicht mehr_. Dann setzten wir uns auf das Trottoir und schleckten genüsslich daran. Bis es irgendwann aus einem der Häuser schallte:
+Und im Sommer gab es am Ende des Tages ein Highlight: Wenn man stinkte vom vielen Schwitzen, die Kleider dreckig waren vom Hinfallen und die ein oder andere Wunde am Körper klaffte, dann kam der Eismann Heinz und es gab Eis! Ein Bällchen für 30 oder 40 Pfennig — _so genau weiß ich das nicht mehr_. Heinz war Teil unserer Jugend. Wenn er in unsere Straße abbog, dann war einfach klar, dass es jetzt ein Eis gibt, manchmal auch ein Bällchen für uns umsonst. Dann setzten wir uns auf das Trottoir und schleckten genüsslich daran. Bis es irgendwann aus einem der Häuser schallte:
 
 > "Andi komm rein, es gibt Essen!"
 
