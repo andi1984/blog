@@ -11,11 +11,6 @@
     margin: 1.5em 0;
     border-radius: 5px;
 
-    transform: rotate(-1deg);
-    .overview__entry & {
-      transform: none;
-    }
-
     &::before {
       content: '';
       position: absolute;
