@@ -22,7 +22,7 @@ Ich lasse ein kleines Infovideo für mich erklären:
 
 ## Begrifflichkeiten
 
-* Instanz (_eng. 'instance'): Beschreibt einen Mastodon-Service bei dem man sich einen eigenen Account erstellen kann. Es gelten die jeweiligen Regeln des Betreibers. Jeder kann im Prinzip eine Instanz zur Verfügung stellen.
+* Instanz (_engl. 'instance'_): Beschreibt einen Mastodon-Service bei dem man sich einen eigenen Account erstellen kann. Es gelten die jeweiligen Regeln des Betreibers. Jeder kann im Prinzip eine Instanz zur Verfügung stellen.
 * Föderation (_engl. 'federation'_ ): Zusammenschluss zueinander bekannten Instanzen. Instanzen werden dann untereinander bekannt, wenn Nutzer der verschiedenen Instanzen sich folgen, d.h. sozusagen über den _Tellerrand_ der eigenen Instanz hinaus schauen und aktiv werden.
 * Toot: Was bei Twitter ein _Tweet_ ist bei Mastodon ein _Toot_.
 * Lokal (_engl. 'local'_) vs. föderal (_engl. 'federal'_): Lokal bezeichnet all das was innerhalb der Grenzen einer Instanz, föderal das was auf den bekannten Instanzen passiert.
