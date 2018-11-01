@@ -11,8 +11,10 @@
     {{partial "header.html" .}}
     {{- block "header" .}}{{end}}
   </header>
-  <main>{{- block "main" .}}{{end}}</main>
-  <aside>{{- block "aside" .}}{{end}}</aside>
+  <div class="layout-container">
+    <aside>{{- block "aside" .}}{{end}}</aside>
+    <main>{{- block "main" .}}{{end}}</main>
+  </div>
   <footer>{{partial "footer.html" .}}{{- block "footer" .}}{{end}}</footer>
   <script rel="preload" type="text/javascript" src="/index.js"></script>
   {{- block "inlinejs" .}}{{end}}
