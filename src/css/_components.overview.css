@@ -1,7 +1,7 @@
 .overview {
   display: flex;
   flex-wrap: wrap;
-  @media screen and (min-width: $desktop-min-width) {
+  @media (--large-viewport) {
     &__entry {
       flex: 0 1 48%;
     }
@@ -12,7 +12,7 @@
     grid-template-columns: 100%;
     grid-gap: 2em;
     justify-content: stretch;
-    @media screen and (min-width: $desktop-min-width) {
+    @media (--large-viewport) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "main main" "part part" "footer footer";
       

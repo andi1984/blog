@@ -1,8 +1,0 @@
-a {
-  @extend %unvisited-link;
-
-  &:visited {
-    background-color: $link-visited-bg;
-    color: $link-visited-color;
-  }
-}

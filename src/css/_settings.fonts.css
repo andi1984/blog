@@ -1,0 +1,13 @@
+/* Definition of the settings (cf. the typekit blog article for namings) */
+:root {
+  --font-size: 1em;
+  --font-size-unitless: 1;
+  --min-lineheight: 1.3em;
+  --min-lineheight-unitless: 1.3;
+  --max-lineheight: 1.5em;
+  --max-lineheight-unitless: 1.5;
+  --lower-gate: 20em;
+  --lower-gate-unitless: 20;
+  --upper-gate: 55em;
+  --upper-gate-unitless: 55;
+}
