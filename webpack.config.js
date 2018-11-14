@@ -9,7 +9,7 @@ const extractSass = new ExtractTextPlugin({
   filename: "[name].css"
 });
 const Dotenv = require("dotenv-webpack");
-const THEME_FOLDER = path.resolve(__dirname, "themes", "andi");
+const THEME_FOLDER = path.resolve(__dirname);
 const STATIC_FOLDER = path.resolve(THEME_FOLDER, "static");
 
 module.exports = [
@@ -54,7 +54,7 @@ module.exports = [
   },
   {
     entry: {
-      main: "./themes/andi/src/sass/main.scss"
+      main: "./src/sass/main.scss"
     },
     output: {
       filename: "[name].css",
