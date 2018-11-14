@@ -1,15 +1,15 @@
 .stripe {
-  // Vertically & horizontally center
+  /* Vertically & horizontally center */
   display: flex;
   justify-content: center;
   align-items: center;
 
-  // Dimensions
+  /* Dimensions */
   width: 100%;
   height: auto;
   margin-bottom: 1em;
 
-  // Colors
+  /* Colors */
   background: linear-gradient(40deg, #49733d, #bf3636 60%, #73171f);
   color: white;
 }

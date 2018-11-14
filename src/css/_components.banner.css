@@ -6,7 +6,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: $maximum-green;
+  background-color: var(--maximum-green);
   text-align: center;
 
   &--slide-in {

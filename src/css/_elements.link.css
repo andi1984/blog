@@ -1,0 +1,8 @@
+a {
+  @extend %unvisited-link;
+
+  &:visited {
+    background-color: var(--link-visited-bg);
+    color: var(--link-visited-color);
+  }
+}

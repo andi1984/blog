@@ -81,6 +81,13 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml 
 # *.ipr
-themes/**/static
+static/
+!static/.htaccess
+!static/app.png
+!static/CNAME
+!static/keybase.txt
+!static/manifest.webmanifest
+!static/spotify-redirect.html
+
 public/
 .env

@@ -1,0 +1,41 @@
+/*
+
+   PostCSS calc lock for line-height
+   -> http://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/
+
+   This file is based on http://codepen.io/timbrown/full/akXvRw/.
+*/
+
+/* Some basic layouting */
+body {
+  margin: 1em auto;
+  padding: 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: var(--font-size);
+  max-width: var(--upper-gate);
+  line-height: var(--min-lineheight);
+}
+
+/* Usage of the "molten leading" line-height */
+
+/* 21em "gate" * 1.15 font-size */
+@mixin lowergate {
+  p {
+    line-height: moltenleading(
+      var(--lower-gate),
+      var(--lower-gate-unitless),
+      var(--upper-gate),
+      var(--upper-gate-unitless),
+      var(--min-lineheight),
+      var(--min-lineheight-unitless),
+      var(--max-lineheight),
+      var(--max-lineheight-unitless),
+    );
+  }
+}
+
+@mixin uppergate {
+  p {
+    line-height: var(--max-lineheight);
+  }
+}

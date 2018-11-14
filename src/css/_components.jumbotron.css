@@ -4,19 +4,19 @@
   width: 100%;
   margin: 1.5rem 0;
   border-radius: 5px;
-  background-color: $sea-blue;
-  color: $link-water;
+  background-color: var(--sea-blue);
+  color: var(--link-water);
   text-align: center;
   
   &__title {
     font-style: italic;
     &::selection {
-      background-color: $queen-blue;
+      background-color: var(--queen-blue);
     }
   }
 
   svg, svg * {
-    stroke: $link-water;
+    stroke: var(--link-water);
   }
 
   svg + &__title {
