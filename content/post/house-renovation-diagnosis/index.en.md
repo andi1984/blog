@@ -10,7 +10,7 @@ resources:
   name: riker
 ---
 
-This first part of my [blogpost series]({{< relref "post/house-renovation/index.en.md" >}}) about _diagnosis_ and _consultation_.
+This first part of my [blogpost series]({{< relref "/post/house-renovation/index.en.md" >}}) about _diagnosis_ and _consultation_.
 
 ## Diagnosis
 

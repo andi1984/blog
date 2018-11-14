@@ -5,7 +5,7 @@
 </section>
 {{end}} {{ i18n "last_x_posts" 10 }} <a href="post/">{{ i18n "all_posts" }}</a>:
 <ol class="overview">
-  {{ range first 10 .Data.Pages }}
+  {{ range first 10 (where .Pages "Type" "!=" "metanav")}}
    {{partial "overview.html" .}}
   {{end}}
 </ol>

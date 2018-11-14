@@ -4,7 +4,7 @@ title = "Dimensions.ai - Product launch"
 series = ["Job"]
 +++
 
-Since more than two years I work now at [ÜberResearch GmbH](http://uberresearch.com/). [Which I already wrote about it (in 🇩🇪)]({{<relref "post/working-remote/index.md">}}).
+Since more than two years I work now at [ÜberResearch GmbH](http://uberresearch.com/). [Which I already wrote about it (in 🇩🇪)]({{<relref path="/post/working-remote/index.md" lang="de">}}).
 
 Pretty short after my start there, I was involved into brainstorming and prototyping for a new product. Now years later, at 15th of January 2018, we launched the first official version of it under [Dimensions.ai](https://dimensions.ai)! It is pleasing to see that initial ideas went into something ["game-changing"](https://figshare.com/s/68dcc69f3fe6189098bb) official which is used worldwide by researchers, funders, institutions and publishers.
 

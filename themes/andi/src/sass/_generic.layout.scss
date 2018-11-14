@@ -1,0 +1,28 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+aside {
+  order: 1;
+}
+
+main {
+  order: 0;
+}
+
+aside:not(:empty) {
+  @media (min-width: 1000px) {
+    flex: 0 1 20%;
+  }
+}
+
+aside:not(:empty) + main {
+  @media (min-width: 1000px) {
+    flex: 0 1 75%;
+  }
+}

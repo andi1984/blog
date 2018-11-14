@@ -1,7 +1,6 @@
 .overview {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   @media screen and (min-width: $desktop-min-width) {
     &__entry {
       flex: 0 1 48%;
@@ -10,25 +9,15 @@
 
   @supports (display: grid) {
     display: grid;
-    grid-column-gap: 25px;
-    grid-row-grap: 15px;
     grid-template-columns: 100%;
+    grid-gap: 2em;
     justify-content: stretch;
     @media screen and (min-width: $desktop-min-width) {
-      grid-template-columns: 50% 50%;
+      grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "main main" "part part" "footer footer";
-
+      
       &__entry:first-child {
         grid-area: main;
-      }
-      // 1, 3, 5, 7
-      &__entry:nth-child(2n + 1) {
-        transform: rotateZ(2deg);
-      }
-
-      // 2, 4, 6, 8
-      &__entry:nth-child(2n) {
-        transform: rotateZ(-2deg);
       }
 
       &__entry:last-child {
@@ -36,9 +25,10 @@
       }
     }
   }
+  justify-content: space-between;
   align-items: start;
   align-content: center;
-  margin: 0;
+  margin: 2em 0;
   list-style: none;
   padding: 0;
 }

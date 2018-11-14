@@ -11,6 +11,5 @@
   </article>
   {{ else if (eq .Type "link") }}
   <a href="{{.Params.link}}" class="link" target="_blank" rel="noopener">{{.Title}}</a>
-  {{ else }}
   {{ end }}
 </li>
