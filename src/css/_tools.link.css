@@ -1,8 +1,8 @@
 %unvisited-link {
   position: relative;
   padding: 0 5px;
-  color: $link-unvisited-color;
-  background-color: $link-unvisited-bg;
+  color: var(--link-unvisited-color);
+  background-color: var(--link-unvisited-bg);
 
   &::after {
     content: "\2693";
@@ -11,13 +11,13 @@
     display: inline-block;
     right: 0;
     bottom: -0.7em;
-    color: $sea-blue;
+    color: var(--sea-blue);
     transform: rotate(-9deg);
   }
 }
 
 %visited-link {
   @extend %visited-link;
-  color: $link-visited-color;
-  background-color: $link-visited-bg;
+  color: var(--link-visited-color);
+  background-color: var(--link-visited-bg);
 }

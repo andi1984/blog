@@ -5,7 +5,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 const workboxPlugin = require("workbox-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const extractSass = new ExtractTextPlugin({
+const extractCSS = new ExtractTextPlugin({
   filename: "[name].css"
 });
 const Dotenv = require("dotenv-webpack");
@@ -54,7 +54,7 @@ module.exports = [
   },
   {
     entry: {
-      main: "./src/sass/main.scss"
+      main: "./src/css/main.css"
     },
     output: {
       filename: "[name].css",
@@ -63,21 +63,18 @@ module.exports = [
     resolveLoader: {
       modules: ["node_modules"]
     },
-    plugins: [extractSass, new Dotenv()],
+    plugins: [extractCSS, new Dotenv()],
     module: {
       rules: [
         {
-          test: /\.scss$/,
-          use: extractSass.extract({
+          test: /\.css$/,
+          use: extractCSS.extract({
             use: [
               {
                 loader: "css-loader" // translates CSS into CommonJS
               },
               {
                 loader: "postcss-loader" // compile CSS to being autoprefixed
-              },
-              {
-                loader: "sass-loader" // compiles Sass to CSS
               }
             ],
             fallback: "style-loader"
