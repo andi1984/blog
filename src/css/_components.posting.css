@@ -2,21 +2,9 @@
   position: relative;
   word-wrap: break-word;
 
-  /* A pile of sheets */
   @media (--large-viewport) {
     background: var(--article-bg);
     padding: 1.5em;
     border-radius: 5px;
-
-    &::before {
-      content: "";
-      position: absolute;
-      border-style: solid;
-      border-width: 1.5em/2;
-      top: 0;
-      left: 0;
-      border-color: white var(--article-bg) var(--article-bg) white;
-      border-bottom-right-radius: 5px;
-    }
   }
 }
