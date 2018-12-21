@@ -32,7 +32,6 @@
     "del": "^3.0.0",
     "dotenv-webpack": "^1.5.7",
     "extract-text-webpack-plugin": "^4.0.0-alpha.0",
-    "node-sass": "^4.11.0",
     "npm-check-updates": "^2.15.0",
     "postcss-cli": "^6.1.0",
     "postcss-custom-media": "^7.0.7",
