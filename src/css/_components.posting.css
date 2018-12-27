@@ -8,3 +8,12 @@
     border-radius: 5px;
   }
 }
+
+.posting h2,
+.posting h3,
+.posting h4,
+.posting h5,
+.posting h6 {
+  font-family: "etc-grandstander", sans-serif;
+  font-variation-settings: "wght" 600, "slnt" 0;
+}

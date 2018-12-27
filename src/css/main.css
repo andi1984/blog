@@ -1,36 +1,37 @@
 /* Settings */
-@import "_settings.fonts";
-@import "_settings.colors";
-@import "_settings.posting";
+@import "_settings.fonts.css";
+@import "_settings.colors.css";
+@import "_settings.posting.css";
 
 /* Tools */
-@import "_tools.link";
+@import "_tools.link.css";
 
 /* Generic */
-@import "_generic.colors";
-@import "_generic.layout";
+@import "_generic.colors.css";
+@import "_generic.heading.css";
+@import "_generic.layout.css";
 
 /* Elements */
-@import "_elements.molten-leading";
-@import "_elements.pre";
-@import "_elements.mark";
-@import "_elements.link";
-@import "_elements.figure";
-@import "_elements.header";
-@import "_elements.blockquote";
+@import "_elements.molten-leading.css";
+@import "_elements.pre.css";
+@import "_elements.mark.css";
+@import "_elements.link.css";
+@import "_elements.figure.css";
+@import "_elements.header.css";
+@import "_elements.blockquote.css";
 
 /* Objects */
-@import "_objects.video";
+@import "_objects.video.css";
 
 /* Components */
-@import "_components.posting";
-@import "_components.comments";
-@import "_components.overview";
-@import "_components.date";
-@import "_components.banner";
-@import "_components.gallery";
-@import "_components.jumbotron";
-@import "_components.link";
-@import "_components.footer";
+@import "_components.posting.css";
+@import "_components.comments.css";
+@import "_components.overview.css";
+@import "_components.date.css";
+@import "_components.banner.css";
+@import "_components.gallery.css";
+@import "_components.jumbotron.css";
+@import "_components.link.css";
+@import "_components.footer.css";
 
 /* Trumps */

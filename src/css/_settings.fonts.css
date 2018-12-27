@@ -11,3 +11,13 @@
   --upper-gate: 55em;
   --upper-gate-unitless: 55;
 }
+
+/*ETC Grandstander*/
+@font-face {
+  font-family: "etc-grandstander";
+  src: url("../font/ETCGrandstanderVariable.woff2") format("woff2-variations"),
+    url("../font/ETCGrandstander-Medium.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100 900;
+  text-rendering: optimizeLegibility;
+}
