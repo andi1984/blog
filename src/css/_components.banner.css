@@ -1,12 +1,12 @@
 .banner {
+  @apply bg-green-lightest border-t-4 border-green rounded-b text-green-darkest py-1 shadow-md leading-none;
   display: block;
   position: fixed;
   width: 100%;
   height: auto;
   z-index: 1;
-  top: 0;
   left: 0;
-  background-color: var(--maximum-green);
+  top: 0;
   text-align: center;
 
   &--slide-in {

@@ -1,8 +1,10 @@
 a {
-  @extend %unvisited-link;
-
+  @apply text-green-darker;
   &:visited {
-    background-color: var(--link-visited-bg);
-    color: var(--link-visited-color);
+    @apply text-green;
+  }
+
+  &:active, &:focus {
+    @apply text-blue;
   }
 }

@@ -1,6 +1,5 @@
 {{define "main"}}
   <div class="jumbotron">
-    {{partial "svg.html" (printf "%s%s%s" "themes/andi/static/icons/" (lower (replace .Title " " "_")) ".svg")}}
     <h1 class="jumbotron__title">{{- .Title -}}</h1>
   </div>
   {{- range .Data.Pages.GroupByDate "2006" }}
