@@ -11,7 +11,11 @@ blockquote {
     }
     
     a {
-      @apply text-grey-lightest;
+      @apply text-white;
+      
+      &:visited, &:active {
+        @apply text-grey-lightest;
+      }
     }
 
 	  p {
