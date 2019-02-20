@@ -11,9 +11,11 @@ blockquote {
     }
     
     a {
-      /* Hide green background on links */
-      /* inside blockquotes for contrast reasons… */
-      background: none;
+      @apply text-white;
+      
+      &:visited, &:active, &:focus {
+        @apply text-grey-lightest;
+      }
     }
 
 	  p {

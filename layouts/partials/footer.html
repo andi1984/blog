@@ -1,20 +1,14 @@
 <section>
-  <span>{{i18n "navigation"}}:</span>
-  <ul>
+  <div class="text-grey-dark mb-2">About</div>
+  <ul class="list-reset leading-normal">
     <li><a href="/metanav/privacypolicy">{{ i18n "privacypolicy"}}</a></li>
     <li><a href="/metanav/about">{{ i18n "about" }}</a></li>
     <li><a href="/metanav/setup">Setup</a></li>
-    {{ range .Site.Home.AllTranslations }}
-      <li>
-        <a href="{{.Permalink}}">{{ if eq .Lang "de" }}🇩🇪{{else}}🇬🇧{{ end }}</a>
-      </li>
-    {{ end }}
   </ul>
 </section>
-
 <section>
-  <span>Blogroll 📜:</span>
-  <ul>
+  <div class="text-grey-dark mb-2">Blogroll</div>
+  <ul class="list-reset leading-normal">
     <li>
       <a href="http://www.apfelmuse.de/">Andrea Juchem</a>
     </li>
@@ -28,8 +22,8 @@
 </section>
 
 <section>
-  <span>{{i18n "lovely_projects"}}:</span>
-  <ul>
+  <div class="text-grey-dark mb-2">{{i18n "lovely_projects"}}:</div>
+  <ul class="list-reset leading-normal">
     <li>
       <a href="https://social.saarland">Saarland@Mastodon</a>
     </li>
@@ -52,11 +46,11 @@
 </section>
 
 <section>
-  <span>Profile</span>
-  <ul>
+  <div class="text-grey-dark mb-2">Profile</div>
+  <ul class="list-reset leading-normal">
     <li><a href="https://twitter.com/@andi1984" rel="me">Twitter</a></li>
     <li><a href="https://social.saarland/@andi1984" rel="me">social.saarland</a></li>
     <li><a href="https://github.com/andi1984" rel="me">Github</a></li>
   </ul>
 </section>
-&copy; {{ now.Format "2006" }}
+

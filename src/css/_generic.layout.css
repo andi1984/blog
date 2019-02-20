@@ -17,12 +17,12 @@ main {
 
 aside:not(:empty) {
   @media (min-width: 1000px) {
-    flex: 0 1 20%;
+    flex: 0 1 25%;
   }
 }
 
 aside:not(:empty) + main {
   @media (min-width: 1000px) {
-    flex: 0 1 75%;
+    flex: 0 1 70%;
   }
 }

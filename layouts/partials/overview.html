@@ -1,15 +1,17 @@
 <li class="overview__entry">
   {{ if (eq .Type "post") }}
-  <article class="posting">
-    <a href="{{.RelPermalink}}">{{ .Title }}</a>
-    <small>{{partial "date-format.html" .}}</small>
-    <details>
-      {{partial "taxonomy-listings-short.html" .}}
-    </details>
-    {{ .Summary }}
-    </p>
-  </article>
+    <article class="shadow-lg border-green-light border-t-4">
+      {{/*    <img class="w-full" src="https://source.unsplash.com/random/800x600" alt="Sunset in the mountains">*/}}
+      <div class="px-6 pt-4">
+        <a class="font-bold text-xl mb-2" href="{{.RelPermalink}}">{{ .Title }}</a>
+        <small>{{partial "date-format.html" .}}</small>
+        <p class="text-grey-darker text-base mt-2">{{ .Summary }}</p>
+      </div>
+      <div class="px-6 pt-2 pb-4">
+        {{partial "taxonomy-listings-short.html" .}}
+      </div>
+    </article>
   {{ else if (eq .Type "link") }}
-  <a href="{{.Params.link}}" class="link" target="_blank" rel="noopener">{{.Title}}</a>
+    <a href="{{.Params.link}}" class="link" target="_blank" rel="noopener">{{.Title}}</a>
   {{ end }}
 </li>

@@ -1,19 +1,13 @@
 .posting {
   position: relative;
   word-wrap: break-word;
+  @apply text-grey-darkest leading-normal mb-10 border-blue-light;
 
   @media (--large-viewport) {
-    background: var(--article-bg);
-    padding: 1.5em;
-    border-radius: 5px;
+    @apply shadow-lg p-6 border-t-4;
   }
 }
 
-.posting h2,
-.posting h3,
-.posting h4,
-.posting h5,
-.posting h6 {
-  font-family: "etc-grandstander", sans-serif;
-  font-variation-settings: "wght" 600, "slnt" 0;
+.posting > p, .posting blockquote, .posting ul, .posting ol {
+  @apply mb-2 mt-2;
 }
