@@ -2,6 +2,7 @@ const path = require("path");
 module.exports = {
   plugins: [
     require("postcss-import"),
+    require("tailwindcss")("tailwind.js"),
     require("postcss-mixins")({
       mixinsDir: path.join(__dirname, "src/css/mixins")
     }),
@@ -15,8 +16,8 @@ module.exports = {
     require("postcss-custom-media")({
       importFrom: [path.join(__dirname, "src/css/_viewport.media.css")]
     }),
-    require('postcss-hexrgba'),
-    require('postcss-extend-rule'),
+    require("postcss-hexrgba"),
+    require("postcss-extend-rule"),
     require("autoprefixer")
   ]
 };

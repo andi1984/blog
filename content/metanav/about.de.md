@@ -13,5 +13,3 @@ Im Stockwald 12<br>
 66265 Heusweiler<br>
 <a href="mailto:blog@andi1984.de">Mail</a>
 {{</ address >}}
-
-Icons kommen von [Streamlineicons, @webalys](http://www.streamlineicons.com/ux/index.html)!
