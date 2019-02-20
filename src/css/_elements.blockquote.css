@@ -13,7 +13,7 @@ blockquote {
     a {
       @apply text-white;
       
-      &:visited, &:active {
+      &:visited, &:active, &:focus {
         @apply text-grey-lightest;
       }
     }
