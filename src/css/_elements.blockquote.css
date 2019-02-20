@@ -11,9 +11,7 @@ blockquote {
     }
     
     a {
-      /* Hide green background on links */
-      /* inside blockquotes for contrast reasons… */
-      background: none;
+      @apply text-grey-lightest;
     }
 
 	  p {
