@@ -38,20 +38,24 @@ For a more detailed introduction I would like to highly recommend you [Chris Lil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vNMJtxL5OgE?start=413" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{</video >}}
 
+At [Axis Praxis](https://www.axis-praxis.org) you can try it out your own changing the font variations. I can recommend for all of you which are not familiar to variable fonts to play around with the range sliders on their side to see how the font and the website changes.
+
 ### Control design axes by font-variation-settings
-as
+The described design axes by the _font-variation-settings_ which are described as a list of key/value pairs.
+
+The four letter axis names followed by their respective value, e.g.
 
 ```css
 html {
-	font-variation-settings: "liga" 0;
+	font-family: "etc-grandstander", sans-serif;
+	font-variation-settings: "wght" 600, "slnt" 0;
 }
 ```
 
+### Browser support
+Although variable fonts are quite a new thing, the [browser support](https://caniuse.com/#feat=variable-fonts) is ~80% of all global page users according to caniuse.com. Internet Explorer is not supporting variable fonts though!
 
-Links:
+If you are interested in using variable fonts on your page, I can recommend you a good [article from Clearleft](https://medium.com/clear-left-thinking/how-to-use-variable-fonts-in-the-real-world-e6d73065a604) which is also pointing out fallback solutions.
 
-- https://medium.com/clear-left-thinking/how-to-use-variable-fonts-in-the-real-world-e6d73065a604
-- https://v-fonts.com/fonts/etc-grandstander
-- https://www.axis-praxis.org
-- https://caniuse.com/#feat=variable-fonts
-- 
+## Variable fonts in the wild!
+Back in December I bought [ETC Grandstander](https://v-fonts.com/fonts/etc-grandstander) from the great [ETC](https://etc.supply/) team which are selling also a few other, nice looking, variable fonts.
