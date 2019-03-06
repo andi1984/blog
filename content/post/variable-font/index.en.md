@@ -1,7 +1,7 @@
 ---
 title: "Variable Fonts"
 date: 2019-03-04T20:08:29+01:00
-draft: true
+draft: false
 ---
 
 Today I would like to talk about _variable fonts_ on the web. But what are those?
