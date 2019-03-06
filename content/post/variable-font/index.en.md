@@ -53,9 +53,27 @@ html {
 ```
 
 ### Browser support
-Although variable fonts are quite a new thing, the [browser support](https://caniuse.com/#feat=variable-fonts) is ~80% of all global page users according to caniuse.com. Internet Explorer is not supporting variable fonts though!
+Although variable fonts are quite a new thing, the [browser support](https://caniuse.com/#feat=variable-fonts) is ~80% of all global users according to caniuse.com. Internet Explorer is not supporting variable fonts though!
 
 If you are interested in using variable fonts on your page, I can recommend you a good [article from Clearleft](https://medium.com/clear-left-thinking/how-to-use-variable-fonts-in-the-real-world-e6d73065a604) which is also pointing out fallback solutions.
 
 ## Variable fonts in the wild!
-Back in December I bought [ETC Grandstander](https://v-fonts.com/fonts/etc-grandstander) from the great [ETC](https://etc.supply/) team which are selling also a few other, nice looking, variable fonts.
+Back in December I bought [ETC Grandstander](https://v-fonts.com/fonts/etc-grandstander) from the great [ETC](https://etc.supply/) team which are selling also a few other, nice variable fonts.
+
+You can find a list of available variable fonts at [v-fonts.com](https://v-fonts.com/).
+
+Over there at [CSS Tricks](https://css-tricks.com/weird-things-variable-fonts-can-do/) you can read all the _weird things_ you can do with variable fonts. And they have a growing [guide collection](https://css-tricks.com/guides/opentype-variable-fonts/) about that topic. Take a look!
+
+### Developer tools
+I can highly recommend the font inspection in the [Firefox Developer tools](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Edit_fonts).
+
+They provide the whole list on information including the design axes with a range slider [you can modify on the fly at the page](https://twitter.com/andi1984/status/1078381928192061441).
+
+### Variable fonts @ andi1984.de 🎉
+As you might have seen already, I'm actually using my bought font on this blog for the headings of my posts.
+
+[Take a look with the mentioned Firefox Devtools!](https://twitter.com/andi1984/status/1078381928192061441) 🤣
+
+Cheers,
+
+Andi
