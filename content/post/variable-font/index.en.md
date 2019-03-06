@@ -28,7 +28,7 @@ Variable fonts define _axes of design_, thus dimensions of variations the typefa
 
 _Before_ this was done by _redrawing_ each single glyph for each, different characteristic of the variations.
 
-Now – with variable fonts – each glyph defines a delta inside which each of the glyph's control points can vary. Any variation within this delta can be _interpolated_ then and thus instead of saving a lot of variations of the glyphs, what is saved and shipped through the font file is this delta.
+_Now_ – with variable fonts – _each glyph defines a delta_ inside which each of the glyph's control points can vary. Any variation within this delta can be _interpolated_ then and thus instead of saving a lot of variations of the glyphs, what is saved and shipped through the font file is this delta.
 
 And with this we have the full power to create our own, custom variations within the whole delta range instead of just using the fixed variations given by the different font files before.
 
@@ -41,9 +41,9 @@ For a more detailed introduction I would like to highly recommend you [Chris Lil
 At [Axis Praxis](https://www.axis-praxis.org) you can try it out your own changing the font variations. I can recommend for all of you which are not familiar to variable fonts to play around with the range sliders on their side to see how the font and the website changes.
 
 ### Control design axes by font-variation-settings
-The described design axes by the _font-variation-settings_ which are described as a list of key/value pairs.
+The described design axes are controlled by the _font-variation-settings_ which are described as a list of key/value pairs.
 
-The four letter axis names followed by their respective value, e.g.
+It is build up by four letter axis names followed by their respective value, e.g.
 
 ```css
 html {
