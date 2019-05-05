@@ -1,4 +1,4 @@
 {
-  "presets": [["@babel/preset-env", { "useBuiltIns": "usage" }]],
+  "presets": [["@babel/preset-env", { "useBuiltIns": "usage", "debug": false }]],
   "plugins": [["transform-react-jsx", { "pragma": "h" }]]
 }

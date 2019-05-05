@@ -1,4 +1,5 @@
 import { showBanner } from "./banner";
+import { init as initNotifications, send } from "./notification";
 const AVAILABLE_LANGUAGE_CODES = ["de", "en"];
 const MESSAGES = {
   de: "Blog ist ebenso in 🇩🇪 verfügbar!",
@@ -7,6 +8,7 @@ const MESSAGES = {
 
 export default () => {
   if ("language" in navigator) {
+    initNotifications();
     const wantedLanguageCode = AVAILABLE_LANGUAGE_CODES.filter(
       code => navigator.language.indexOf(code) !== -1
     ).join("");
@@ -15,8 +17,16 @@ export default () => {
       wantedLanguageCode.length &&
       wantedLanguageCode !== document.documentElement.lang
     ) {
+      const link = `/${wantedLanguageCode}`;
       // Wanted language is not the currently shown one…
-      showBanner(MESSAGES[wantedLanguageCode], `/${wantedLanguageCode}`);
+      send(MESSAGES[wantedLanguageCode], "andi1984-language")
+        .then(
+          notification =>
+            (notification.onclick = () => {
+              window.location.href = link;
+            })
+        )
+        .catch(() => showBanner(MESSAGES[wantedLanguageCode], link));
     }
   }
 };
