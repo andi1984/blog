@@ -3,7 +3,7 @@
   command = "npm run deploy"
 
 [context.production.environment]
-  HUGO_VERSION = "0.50"
+  HUGO_VERSION = "0.55.5"
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.55.5"
