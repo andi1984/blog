@@ -2,7 +2,7 @@ const path = require("path");
 module.exports = {
   plugins: [
     require("postcss-import"),
-    require("tailwindcss")("tailwind.js"),
+    require("tailwindcss")("tailwind.config.js"),
     require("postcss-mixins")({
       mixinsDir: path.join(__dirname, "src/css/mixins")
     }),
