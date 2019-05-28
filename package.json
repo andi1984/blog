@@ -29,7 +29,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^5.0.2",
-    "css-loader": "^2.1.0",
+    "css-loader": "^2.1.1",
     "del": "^4.1.1",
     "dotenv-webpack": "^1.7.0",
     "extract-text-webpack-plugin": "^4.0.0-alpha.0",
