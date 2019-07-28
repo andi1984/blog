@@ -4,13 +4,13 @@ date: 2017-09-28T23:42:12+02:00
 draft: false
 series: ['House Renovation']
 resources:
-- src: "*/floor.jpg"
+- src: "*/floor.en.jpg"
   name: floor
-- src: "*/riker-wtf.gif"
+- src: "*/riker-wtf.en.gif"
   name: riker
 ---
 
-This first part of my [blogpost series]({{< relref "/post/house-renovation/index.en.md" >}}) about _diagnosis_ and _consultation_.
+This first part of my [blogpost series]({{< relref path="/post/house-renovation/index.en.md" lang="en">}}) about _diagnosis_ and _consultation_.
 
 ## Diagnosis
 
