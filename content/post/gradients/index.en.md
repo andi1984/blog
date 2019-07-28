@@ -4,9 +4,9 @@ title: "Gradient tools ⚒"
 series: ["Tools"]
 languages: ["CSS"]
 resources:
-- src: "*/grabient.png"
+- src: "*/grabient.en.png"
   name: grabient
-- src: "*/gradpad.png"
+- src: "*/gradpad.en.png"
   name: gradpad
 ---
 
