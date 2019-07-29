@@ -36,7 +36,7 @@
     "file-loader": "^3.0.1",
     "postcss-cli": "^6.1.2",
     "postcss-custom-media": "^7.0.8",
-    "postcss-custom-properties": "^8.0.10",
+    "postcss-custom-properties": "^9.0.2",
     "postcss-extend-rule": "^2.0.0",
     "postcss-functions": "^3.0.0",
     "postcss-hexrgba": "^1.0.1",
