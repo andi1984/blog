@@ -6,8 +6,19 @@
   @media (--large-viewport) {
     @apply shadow-lg p-6 border-t-4;
   }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
 }
 
-.posting > p, .posting blockquote, .posting ul, .posting ol {
+.posting > p,
+.posting blockquote,
+.posting ul,
+.posting ol {
   @apply mb-2 mt-2;
 }
