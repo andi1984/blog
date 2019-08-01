@@ -40,6 +40,12 @@ There are thousands of programming language specific extensions and thus whateve
 
 What are your favourite VSCode exteions and why? Let me know about [Twitter](https://twitter.com/@andi1984).
 
+{{< note >}}In case you want to share your extension suggestions, there is also the possibility to define so called
+_extension packs_. [Centigrade](https://www.centigrade.de/en) for example did this by defining their [Centigrade Angular Extensions](https://marketplace.visualstudio.com/items?itemName=centigrade.centigrade-angular-essentials) which
+could be very helpful for onboarding to directly point to this extension pack the developer can download and by that
+directly has access to appropriate extensions and toolset in VSCode for his/her job.{{</ note >}}
+
+
 Greets,
 
 Andi
