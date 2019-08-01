@@ -1,0 +1,12 @@
+.note {
+  @apply bg-green-lighter border-t-4 border-green-darker rounded-b text-black px-4 py-3 shadow-md mb-4;
+  &__content {
+    @apply flex items-center;
+  }
+  &__icon {
+    @apply fill-current text-green-darker w-4 h-4 mr-2 flex-shrink-0;
+  }
+  &__text {
+
+  }
+}

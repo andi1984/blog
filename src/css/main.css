@@ -57,6 +57,7 @@
 @import "_components.gallery.css";
 @import "_components.link.css";
 @import "_components.footer.css";
+@import "_components.note.css";
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
