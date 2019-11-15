@@ -7,6 +7,8 @@
     @apply fill-current text-green-darker w-4 h-4 mr-2 flex-shrink-0;
   }
   &__text {
-
+    ul, ol {
+      list-style-position: inside;
+    }
   }
 }
