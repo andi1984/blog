@@ -1,3 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9fe4f23e-e8e2-4098-b40b-0e818582b0b3/deploy-status)](https://app.netlify.com/sites/gallant-noether-67b4c6/deploys)
+# Redirect to andi1984.dev
 
-# My Own Blog
+This repository now contains a simple HTML redirect page that forwards visitors to [andi1984.dev](https://andi1984.dev/).
+
+The previous blog content has been removed in favor of this simple redirect.

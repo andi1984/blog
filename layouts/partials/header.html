@@ -1,6 +1,0 @@
-<div class="w-full flex items-center text-2xl mb-10">
-  <a class="w-4/5" href="{{.Site.BaseURL}}">🏠</a>
-  {{ range .Site.Home.AllTranslations }}
-    <a class="px-2" href="{{.Permalink}}">{{ if eq .Lang "de" }}🇩🇪{{else}}🇬🇧{{ end }}</a>
-  {{ end }}
-</div>
